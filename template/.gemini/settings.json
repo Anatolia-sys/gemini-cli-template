@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.gemini.google.dev/settings.json",
+  "_comment": "プロジェクト固有の Gemini CLI 設定ファイル",
+  "_comment_usage": "このファイルは .gemini/settings.json に配置してください",
+
+  "model": {
+    "_comment": "使用するモデルを指定。最新モデルを推奨",
+    "default": "gemini-2.5-pro"
+  },
+
+  "checkpoint": {
+    "_comment": "ファイル変更前にスナップショットを作成する安全機能",
+    "_comment_restore": "/restore コマンドで復元可能",
+    "enabled": true
+  },
+
+  "sandbox": {
+    "_comment": "サンドボックスモード。安全な実行環境を提供",
+    "enabled": false
+  },
+
+  "theme": {
+    "_comment": "CLI のテーマ設定",
+    "preference": "auto"
+  }
+}
